@@ -1,25 +1,31 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnBoss : MonoBehaviour
+public class SpawnMonsters : MonoBehaviour
 {
     public GameObject monsterPrefab;
-    public int numSpawnPoints = 2;
-    public float spawnAreaRadius = 2f;
+    public int numberOfMonsters = 10;
+    public Collider2D spawnAreaCollider;
 
     void Start()
     {
-        SpawnMonsters();
+        Spawn();
     }
 
-    void SpawnMonsters()
+    void Spawn()
     {
-        for (int i = 0; i < numSpawnPoints; i++)
+        if (spawnAreaCollider == null)
         {
-            Vector2 spawnPoint = (Random.insideUnitCircle * spawnAreaRadius) + (Vector2)transform.position;
+            Debug.LogError("Spawn area collider is not assigned!");
+            return;
+        }
 
-            Instantiate(monsterPrefab, spawnPoint, Quaternion.identity);
+        Bounds spawnBounds = spawnAreaCollider.bounds;
+
+        for (int i = 0; i < numberOfMonsters; i++)
+        {
+            Vector2 randomPosition = new Vector2(Random.Range(spawnBounds.min.x, spawnBounds.max.x),
+                                                 Random.Range(spawnBounds.min.y, spawnBounds.max.y));
+            Instantiate(monsterPrefab, randomPosition, Quaternion.identity);
         }
     }
 }

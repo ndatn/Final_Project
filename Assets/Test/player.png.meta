@@ -869,7 +869,7 @@ TextureImporter:
       name: player_36
       rect:
         serializedVersion: 2
-        x: 0
+        x: 96
         y: 144
         width: 48
         height: 48
@@ -890,7 +890,7 @@ TextureImporter:
       name: player_37
       rect:
         serializedVersion: 2
-        x: 48
+        x: 144
         y: 144
         width: 48
         height: 48
@@ -911,7 +911,7 @@ TextureImporter:
       name: player_38
       rect:
         serializedVersion: 2
-        x: 96
+        x: 192
         y: 144
         width: 48
         height: 48
@@ -932,7 +932,7 @@ TextureImporter:
       name: player_39
       rect:
         serializedVersion: 2
-        x: 144
+        x: 240
         y: 144
         width: 48
         height: 48
@@ -953,7 +953,7 @@ TextureImporter:
       name: player_40
       rect:
         serializedVersion: 2
-        x: 0
+        x: 96
         y: 96
         width: 48
         height: 48
@@ -974,7 +974,7 @@ TextureImporter:
       name: player_41
       rect:
         serializedVersion: 2
-        x: 48
+        x: 144
         y: 96
         width: 48
         height: 48
@@ -995,7 +995,7 @@ TextureImporter:
       name: player_42
       rect:
         serializedVersion: 2
-        x: 96
+        x: 192
         y: 96
         width: 48
         height: 48
@@ -1016,7 +1016,7 @@ TextureImporter:
       name: player_43
       rect:
         serializedVersion: 2
-        x: 144
+        x: 240
         y: 96
         width: 48
         height: 48
@@ -1037,7 +1037,7 @@ TextureImporter:
       name: player_44
       rect:
         serializedVersion: 2
-        x: 0
+        x: 96
         y: 48
         width: 48
         height: 48
@@ -1058,7 +1058,7 @@ TextureImporter:
       name: player_45
       rect:
         serializedVersion: 2
-        x: 48
+        x: 144
         y: 48
         width: 48
         height: 48
@@ -1079,7 +1079,7 @@ TextureImporter:
       name: player_46
       rect:
         serializedVersion: 2
-        x: 96
+        x: 192
         y: 48
         width: 48
         height: 48
@@ -1100,7 +1100,7 @@ TextureImporter:
       name: player_47
       rect:
         serializedVersion: 2
-        x: 144
+        x: 240
         y: 48
         width: 48
         height: 48
@@ -1121,7 +1121,7 @@ TextureImporter:
       name: player_48
       rect:
         serializedVersion: 2
-        x: 0
+        x: 144
         y: 0
         width: 48
         height: 48
@@ -1142,7 +1142,7 @@ TextureImporter:
       name: player_49
       rect:
         serializedVersion: 2
-        x: 48
+        x: 192
         y: 0
         width: 48
         height: 48
@@ -1163,7 +1163,7 @@ TextureImporter:
       name: player_50
       rect:
         serializedVersion: 2
-        x: 96
+        x: 240
         y: 0
         width: 48
         height: 48
